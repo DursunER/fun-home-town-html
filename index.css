@@ -9,35 +9,64 @@ header {
     display: block;
 }
 
+p {
+    font-family: fantasy;
+    font-size: 1em;
+    padding: 10px;
+}
+
 h1 {
     font-family: fantasy;
     text-align: center;
     font-size: 3em;
     color: blue;
+    padding: 10px;
     text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(127, 127, 219);
 }
 
 h2 {
     font-family: fantasy; 
     color: blue; 
-
-
+    padding: 10px;
 }
 
-p {
-    font-family: fantasy;
-    font-size: 1em
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
+ul li {
+    float: left;
+    width: auto;
+    height: 40px;
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: left;
+    font-size: 20px;
+}
+
+ul li a {
+    font-family: fantasy:
+    text-decoration: solid;
+    color: blue;
+    display: black;
+    padding: 10px;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 .parent{
     display: flex;
-    justify-content: space-between
+    justify-content: flex-start;
+ 
    
 }
 .child{
     flex-basis: 33.33%;
-    padding: 10px;
     box-sizing: border-box;
     
 }
