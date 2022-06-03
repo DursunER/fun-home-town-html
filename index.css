@@ -1,0 +1,53 @@
+* {
+    background-color:  rgb(180, 222, 252);
+    margin-left: 5px;
+    padding: 1px;
+    margin-right: 5px;
+}
+
+header {
+    display: block;
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 3em;
+    color: blue;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(127, 127, 219);
+}
+
+h2 {
+    font-family: fantasy; 
+    color: blue; 
+
+
+}
+
+p {
+    font-family: fantasy;
+    font-size: 1em
+}
+
+
+.parent{
+    display: flex;
+    justify-content: space-between
+   
+}
+.child{
+    flex-basis: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.child img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+}
+   
+    
+
+   
+     
