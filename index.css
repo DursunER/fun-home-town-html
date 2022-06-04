@@ -9,25 +9,31 @@ header {
     display: block;
 }
 
+p, h2 {
+    display: inline-block;
+}
+
 p {
     font-family: fantasy;
     font-size: 1em;
     padding: 10px;
+    text-align: left;
 }
 
 h1 {
     font-family: fantasy;
     text-align: center;
     font-size: 3em;
-    color: blue;
     padding: 10px;
     text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(127, 127, 219);
 }
 
 h2 {
     font-family: fantasy; 
-    color: blue; 
+    color: rgb(104, 104, 230); 
     padding: 10px;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(127, 127, 219);
+
 }
 
 ul {
@@ -47,36 +53,51 @@ ul li {
 }
 
 ul li a {
-    font-family: fantasy:
-    text-decoration: solid;
-    color: blue;
-    display: black;
+    font-family: fantasy;
+    
     padding: 10px;
 }
 
 ul li a:hover {
     font-weight: bold;
     text-decoration: underline;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(127, 127, 219);
+    
 }
 
-.parent{
+.aboutpam {
+    border-radius: 10%;
+    height:300px;
+    width: 100%;
+    
+}
+
+.parent {
     display: flex;
     justify-content: flex-start;
+    
  
    
 }
-.child{
+.child {
     flex-basis: 33.33%;
     box-sizing: border-box;
     
 }
-.child img{
+.child img { 
+    display:block;
     height: 100%;
     width: 100%;
     border-radius: 20%;
 }
    
-    
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:422px;
+    width:947px;
+}
+
 
    
      
